@@ -1,4 +1,4 @@
-# nic.com - DNS
+# DNS Tip
 
 Change the A record to the IP that you need to point to.
 
