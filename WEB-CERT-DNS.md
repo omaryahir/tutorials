@@ -6,16 +6,15 @@ Change the A record to the IP that you need to point to.
 
 1. Install: 
     ```$ apt-get install certbot```
-2. Run this command: 
+2. Run this command: (If you need the notification remove the last line)
     ```
-$ certbot certonly \
-  -d mydomain.com \
-  --noninteractive \
-  --standalone \
-  --agree-tos \
-  --register-unsafely-without-email 
+    $ certbot certonly \
+        -d mydomain.com \
+        --noninteractive \
+        --standalone \
+        --agree-tos \
+        --register-unsafely-without-email 
     ```
-    If you need the notification remove the last line 
 
 3. Usually the cert is going to be /etc/letsencrypt/live/domain
 
