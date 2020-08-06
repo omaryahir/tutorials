@@ -47,6 +47,11 @@ Change the A record to the IP that you need to point to.
     $ cert renew
     ```
 
+# Manual Approach:
+
+Follow this link: https://synkre.com/ssl-for-your-website/
+
+
 
     
 
